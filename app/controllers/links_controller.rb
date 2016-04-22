@@ -38,6 +38,8 @@ class LinksController < ApplicationController
     end
   end
 
+  
+
   # PATCH/PUT /links/1
   # PATCH/PUT /links/1.json
   def update

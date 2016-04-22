@@ -8,6 +8,11 @@
 
       <div class="form-inputs">
 
+            <div class="form-group">
+              <%= f.label :name %><br />
+              <%= f.text_field :name, class: "form-control", :autofocus => true %>
+            </div>
+
           <div class="form-group">
             <%= f.label :email %><br />
             <%= f.email_field :email, class: "form-control", :autofocus => true %>
@@ -29,8 +34,9 @@
             <%= f.submit "Update", class: "btn btn-primary" %>
           </div>
 
-    <% end %>
-  </div>  
+       </div>
+  </div>
+  <% end %>  
 
 <div class="panel-footer">
 
